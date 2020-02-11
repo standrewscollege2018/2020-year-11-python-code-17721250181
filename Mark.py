@@ -1,6 +1,6 @@
-mark = float(input("What is your grade?")) # I use float because a mark may not be a int
+mark = float(input("What is your grade?"))
 
-if mark >= 90:   
+if mark >= 90:
     print ( "A" )
 if mark >= 70 and mark < 90:
     print ( "B" )    
