@@ -1,10 +1,12 @@
 mark = float(input("What is your grade?"))
 
-if mark >= 90:
+if mark > 100 or mark < 0:
+    print ( "ILLEGAL MARK !!!" )
+elif mark >= 90:
     print ( "A" )
-if mark >= 70 and mark < 90:
-    print ( "B" )    
-if mark >= 50 and mark < 70:
+elif mark >= 70:
+    print ( "B" )
+elif mark >= 50:
     print ( "C" )
-if mark < 50:
+else: 
     print ( "Fail" )
