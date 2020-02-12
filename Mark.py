@@ -1,4 +1,4 @@
-mark = float(input("What is your grade?")) #sdkajieng
+mark = float(input("What is your grade?"))
 
 if mark >= 90:
     print ( "A" )
