@@ -1,4 +1,4 @@
-mark = float(input("What is your grade?"))
+mark = float(input("What is your grade?   Input your grade here: "))
 
 if mark > 100 or mark < 0:
     print ( "ILLEGAL MARK !!!" )
@@ -10,3 +10,4 @@ elif mark >= 50:
     print ( "C" )
 else: 
     print ( "Fail" )
+    
